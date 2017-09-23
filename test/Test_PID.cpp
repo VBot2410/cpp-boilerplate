@@ -21,7 +21,7 @@ TEST(PID_Test, Non_Negative_Gains_Not_Allowed) {
  */
 TEST(Compute_Test, Set_Point_Equals_Current_Velocity_Output_0) {
   PID PID_Controller = PID(99.99, 99.99, 99.99);
-  EXPECT_TRUE(0 == (PID_Controller.Compute(99.99, 99.99)));
+  EXPECT_EQ(0, (PID_Controller.Compute(99.99, 99.99)));
 }
 
 /**
