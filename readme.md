@@ -4,11 +4,11 @@
 ---
 
 ## Overview
+```
 
-Simple starter C++ project with:
-
-- cmake
-- googletest
+Simple Implementation of PID Controller.
+Reference: https://en.wikipedia.org/wiki/PID_controller
+```
 
 ## Standard install via command-line
 ```
@@ -21,8 +21,9 @@ make
 Run tests: ./test/cpp-test
 Run program: ./app/shell-app
 ```
-##To Do
+## To Do
 ```
 Implement the Compute Function
 Test The Implementation using the Unit Tests.
 Debug the Code until all the tests pass.
+```
