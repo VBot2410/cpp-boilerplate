@@ -1,6 +1,5 @@
 # C++ Boilerplate
 [![Build Status](https://travis-ci.org/VBot2410/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/VBot2410/cpp-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/VBot2410/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/VBot2410/cpp-boilerplate?branch=master)
 ---
 
 ## Overview
