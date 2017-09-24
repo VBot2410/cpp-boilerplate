@@ -8,6 +8,8 @@
 
 Simple Implementation of PID Controller.
 Reference: https://en.wikipedia.org/wiki/PID_controller
+
+![Alt text](ActivityDiagram.jpg?raw=true "Activity Diagram")
 ```
 
 ## Standard install via command-line
