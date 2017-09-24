@@ -27,6 +27,6 @@ Implement the Compute Function
 Test The Implementation using the Unit Tests.
 Debug the Code until all the tests pass.
 
-**EDIT:**
+**EDIT**
 Completed. Build Passing, Coverage 100%.
 ```
