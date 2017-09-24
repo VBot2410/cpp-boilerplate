@@ -9,7 +9,7 @@
 Simple Implementation of PID Controller.
 Reference: https://en.wikipedia.org/wiki/PID_controller
 
-![Alt tag](https://github.com/VBot2410/cpp-boilerplate/blob/master/ActivityDiagram.jpg?raw=true "Activity Diagram")
+![Alt text](https://github.com/VBot2410/cpp-boilerplate/blob/master/ActivityDiagram.jpg)
 ```
 
 ## Standard install via command-line
