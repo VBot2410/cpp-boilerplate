@@ -5,11 +5,8 @@
 
 ## Overview
 ```
-
 Simple Implementation of PID Controller.
 Reference: https://en.wikipedia.org/wiki/PID_controller
-
-![Alt text](https://github.com/VBot2410/cpp-boilerplate/blob/master/ActivityDiagram.jpg)
 ```
 
 ## Standard install via command-line
@@ -23,11 +20,13 @@ make
 Run tests: ./test/cpp-test
 Run program: ./app/shell-app
 ```
+
 ## To Do
 ```
 Implement the Compute Function
 Test The Implementation using the Unit Tests.
 Debug the Code until all the tests pass.
 
-EDIT: Completed. Build Passing, Coverage 100%.
+**EDIT:**
+Completed. Build Passing, Coverage 100%.
 ```
