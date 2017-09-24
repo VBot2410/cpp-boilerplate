@@ -12,8 +12,8 @@
  *
  */
 
-#ifndef PID_H_
-#define PID_H_
+#ifndef INCLUDE_PID_H_
+#define INCLUDE_PID_H_
 
 /**
  * @brief PID class Declaration
@@ -38,4 +38,4 @@ class PID {
   ~PID();
 };
 
-#endif /* PID_H_ */
+#endif /* INCLUDE_PID_H_ */
