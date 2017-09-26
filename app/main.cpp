@@ -13,7 +13,7 @@
  * @brief main method
  * Uses a class PID to design a PID controller and Calculate the Expected Velocity
  * @param Kp, Ki, Kd gain values passed to the PID Class Constructor
- * @param Expected_Velocity The Value returned by Compute Function
+ * @param Control The Value returned by Compute Function
  * @param Set_Point the Reference Output
  * @param Current_Velocity The Current Velocity
  * @return 0
@@ -28,7 +28,7 @@ int main() {
   PID Controller = PID(Kp, Ki, Kd);
   /**
    * Call the Compute function with (Set_Point, Current_Velocity)
-   * Receive output in Expected_Velocity
+   * Receive output in Control
    */
   const double Set_Point = 200;
   const double Current_Velocity = 20;
