@@ -35,6 +35,6 @@ int main() {
   const double Control = Controller.Compute(Set_Point,
                                                       Current_Velocity);
   std::cout << "New Velocity: " << (Control + Current_Velocity)
-      << std::endl << "Control: " << (Expected_Velocity);
+      << std::endl << "Control: " << (Control);
   return 0;
 }
