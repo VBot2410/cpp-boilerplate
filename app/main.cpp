@@ -22,18 +22,19 @@ int main() {
   /**
    * Initialize the Kp,Ki,Kd by calling the PID class constructor
    */
-  const double Kp = 0.1;
+  const double Kp = 1.1;
   const double Ki = 0.5;
-  const double Kd = 3.2;
+  const double Kd = 0.05;
   PID Controller = PID(Kp, Ki, Kd);
   /**
    * Call the Compute function with (Set_Point, Current_Velocity)
    * Receive output in Expected_Velocity
    */
-  const double Set_Point = 30;
-  const double Current_Velocity = 2.05;
-  const double &Expected_Velocity = Controller.Compute(Set_Point,
-                                                       Current_Velocity);
-  std::cout << Expected_Velocity;
+  const double Set_Point = 200;
+  const double Current_Velocity = 20;
+  const double Expected_Velocity = Controller.Compute(Set_Point,
+                                                      Current_Velocity);
+  std::cout << "New Velocity: " << (Expected_Velocity + Current_Velocity)
+      << std::endl << "Control: " << (Expected_Velocity);
   return 0;
 }
